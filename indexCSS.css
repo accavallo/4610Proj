@@ -1,0 +1,40 @@
+input[type=text] {
+    padding: 3px;
+}
+input[type=text]:focus {
+    border: 2px solid lightseagreen;
+}
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid lightseagreen;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    min-width: 75px;
+    border: 1px solid black;
+}
+tr:nth-child(even) {background-color: #e2e2e2}
+
+/* do not group these rules */
+input[type=text]::-webkit-input-placeholder {
+    color: #003300;
+}
+input[type=text]:-moz-placeholder {
+    /* FF 4-18 */
+    color: #003300;
+}
+input[type=text]::-moz-placeholder {
+    /* FF 19+ */
+    color: #003300;
+}
+input[type=text]:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #003300;
+}
